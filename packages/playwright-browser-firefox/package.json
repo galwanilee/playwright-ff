@@ -27,6 +27,6 @@
     "install": "node install.js"
   },
   "dependencies": {
-    "playwright-core": "1.56.0-next"
+    "playwright-core": "git+https://github.com/galwanilee/playwright-ff.git#main:packages/playwright-core"
   }
 }

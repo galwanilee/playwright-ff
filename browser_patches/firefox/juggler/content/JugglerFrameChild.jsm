@@ -46,8 +46,8 @@ export class JugglerFrameChild extends JSWindowActorChild {
       this._agents()?.pageAgent.onWindowEvent(event);
     }));
 
-    if (this.document.documentURI.startsWith('moz-extension://'))
-      return;
+    // if (this.document.documentURI.startsWith('moz-extension://'))
+    //   return;
 
     // Child frame events will be forwarded to related top-level agents.
     if (this.browsingContext.parent)
